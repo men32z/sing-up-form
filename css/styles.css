@@ -1,0 +1,11 @@
+.ius-white-lock-img{
+	height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
