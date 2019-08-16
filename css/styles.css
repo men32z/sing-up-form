@@ -16,9 +16,45 @@
     padding: 30px;
     font-size: 10px;
 }
+.logos-section{
+    width:380px;
+    padding: 30px;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+}
+.form-section{
+    text-align: left;
+}
+.form-section h1 {
+    font-size: 24px;
+}
+.have-acount{
+    position: absolute;
+    top:0;
+    right:0;
+}
 /* General Section */
 body {
     background-color: #ECEEF1;   
+}
+input{
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    outline: 0;
+    font-size: 1.2em;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.all-width{
+    width: 100%;
 }
 .lock-icon {
 	height: 1em;
@@ -27,9 +63,32 @@ body {
     margin-right: 4px;
     vertical-align: text-top;
     display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/icon-whitelock@3x.png);
+    background-image: url("../images/lock-icon.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+.logo{
+    width: 118px;
+    height: 35px;
+    background-image: url("../images/ecosystem_logos_new.png");
+    margin: 0 auto;
+    display: block;
+}
+
+.turbotax-logo{
+    width: 100px;
+    height: 35px;
+    background: url("../images/ecosystem_logos_new.png") 0px 35px;
+    margin: 0 auto;
+    display: block;
+}
+
+.quickbooks-logo{
+    width: 140px;
+    height: 35px;
+    background: url("../images/ecosystem_logos_new.png") -101px 35px;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Footer */
