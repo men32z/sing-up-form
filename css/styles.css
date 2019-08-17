@@ -35,7 +35,8 @@
 }
 /* General Section */
 body {
-    background-color: #ECEEF1;   
+    background-color: #ECEEF1; 
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 input{
     border: 1px solid #C1C5C8;
@@ -55,6 +56,17 @@ input{
 }
 .all-width{
     width: 100%;
+}
+
+button {
+    background-color: #0077C5;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: #0077C5;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
 }
 .lock-icon {
 	height: 1em;
@@ -76,7 +88,7 @@ input{
 }
 
 .turbotax-logo{
-    width: 100px;
+    width: 110px;
     height: 35px;
     background: url("../images/ecosystem_logos_new.png") 0px 35px;
     margin: 0 auto;
@@ -84,11 +96,25 @@ input{
 }
 
 .quickbooks-logo{
-    width: 140px;
+    width: 145px;
     height: 35px;
     background: url("../images/ecosystem_logos_new.png") -101px 35px;
     margin: 0 auto;
     display: block;
 }
 
+.mint-logo {
+    width: 90px;
+    height: 35px;
+    background: url("../images/ecosystem_logos_new.png") -235px 35px;
+    margin: 0 auto;
+    display: block;  
+}
+
 /* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
