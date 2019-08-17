@@ -18,25 +18,46 @@
 }
 .logos-section{
     width:380px;
-    padding: 30px;
-    margin: 0px auto 0px auto;
+    padding: 30px 30px 15px 30px;
+    margin: 45px auto 0px auto;
     box-sizing: border-box;
 }
 .form-section{
     text-align: left;
 }
-.form-section h1 {
+h1 {
     font-size: 24px;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-weight: 400;
 }
 .have-acount{
     position: absolute;
     top:0;
     right:0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.have-acount div{
+    padding: 15px;
+}
+.terms{
+    font-style: italic;
+    color: #757575;
+    font-size: 12px;
 }
 /* General Section */
+a{
+    color: #0077C5;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 body {
     background-color: #ECEEF1; 
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #4C4C4C;
 }
 input{
     border: 1px solid #C1C5C8;
@@ -45,6 +66,13 @@ input{
     outline: 0;
     font-size: 1.2em;
     width: 100%;
+    height: 34px;
+    margin-top:10px;
+}
+small{
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
 }
 .row{
     display: flex;
@@ -57,6 +85,13 @@ input{
 .all-width{
     width: 100%;
 }
+.lock-open{
+    width: 33px;
+    position: relative;
+    right: -280px;
+    height: 32px;
+    top: -35px;
+}
 
 button {
     background-color: #0077C5;
@@ -67,6 +102,11 @@ button {
     border-radius: 4px;
     width: 100%;
     text-align: center;
+}
+form button{
+    height: 44px;
+    font-weight: 400;
+    font-size: 1.125em;
 }
 .lock-icon {
 	height: 1em;
@@ -83,7 +123,7 @@ button {
     width: 118px;
     height: 35px;
     background-image: url("../images/ecosystem_logos_new.png");
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
     display: block;
 }
 
@@ -104,9 +144,9 @@ button {
 }
 
 .mint-logo {
-    width: 90px;
+    width: 80px;
     height: 35px;
-    background: url("../images/ecosystem_logos_new.png") -235px 35px;
+    background: url("../images/ecosystem_logos_new.png") -250px 35px;
     margin: 0 auto;
     display: block;  
 }
