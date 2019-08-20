@@ -5,7 +5,7 @@ This project consists of building an HTML document that matches the appearance o
 You can find the original project specifications [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
 # Live Version:
-You can check our live version [here](https://raw.githack.com/men32z/sing-up-form/first-version/index.html)
+You can check our live version [here](https://men32z.github.io/sing-up-form/)
 
 # Source Page:
 https://www.mint.com/
