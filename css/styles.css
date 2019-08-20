@@ -1,0 +1,185 @@
+/* Main Section */
+.white-box {
+  background-color: white;
+  width: 380px;
+  padding: 30px;
+  margin: 0 auto 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.grey-box {
+  background-color: #eceef1;
+  color: #8d9096;
+  margin: 32px -30px -30px -30px;
+  padding: 30px;
+  font-size: 10px;
+}
+
+.logos-section {
+  width: 380px;
+  padding: 30px 30px 15px 30px;
+  margin: 45px auto 0 auto;
+  box-sizing: border-box;
+}
+
+.form-section {
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+.have-acount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.have-acount div {
+  padding: 15px;
+}
+
+.terms {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+}
+
+/* General Section */
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #eceef1;
+  font-family:
+    AvenirNext,
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  color: #4c4c4c;
+}
+
+input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  outline: 0;
+  font-size: 1.2em;
+  width: 100%;
+  height: 34px;
+  margin-top: 10px;
+}
+
+small {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-width {
+  width: 100%;
+}
+
+.lock-open {
+  width: 33px;
+  position: relative;
+  right: -280px;
+  height: 32px;
+  top: -35px;
+}
+
+button {
+  background-color: #0077c5;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: #0077c5;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+form button {
+  height: 44px;
+  font-weight: 400;
+  font-size: 1.125em;
+}
+
+.lock-icon {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url("../images/lock-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 118px;
+  height: 35px;
+  background-image: url("../images/ecosystem_logos_new.png");
+  margin: 0 auto 15px auto;
+  display: block;
+}
+
+.turbotax-logo {
+  width: 110px;
+  height: 35px;
+  background: url("../images/ecosystem_logos_new.png") 0 35px;
+  margin: 0 auto;
+  display: block;
+}
+
+.quickbooks-logo {
+  width: 145px;
+  height: 35px;
+  background: url("../images/ecosystem_logos_new.png") -101px 35px;
+  margin: 0 auto;
+  display: block;
+}
+
+.mint-logo {
+  width: 80px;
+  height: 35px;
+  background: url("../images/ecosystem_logos_new.png") -250px 35px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
